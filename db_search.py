@@ -21,9 +21,9 @@ class DBSearch():
         if DBSearch._db_con == None:
             DBSearch._db_con = mysql.connector.connect(
                 host="localhost",
-                user="ot39",
-                password="NT27",
-                database="bible"
+                user="krishna",
+                password="Krishna@123",
+                database="csit"
             )
         if DBSearch._db_session == None:
             DBSearch._db_session = DBSearch._db_con.cursor()
